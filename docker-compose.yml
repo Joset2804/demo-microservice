@@ -1,0 +1,12 @@
+version: '3'
+services:
+  demo-service:
+    image: microservice-docker-demo:0.0.1-SNAPSHOT
+    ports:
+      - "8081:8081"
+    restart: on-failure  
+    networks:
+      - tarazona
+networks:
+  tarazona:
+    
