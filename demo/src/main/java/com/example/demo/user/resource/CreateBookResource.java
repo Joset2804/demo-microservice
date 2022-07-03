@@ -9,9 +9,9 @@ import javax.validation.constraints.Size;
 
 @Getter
 @Setter
-public class UpdateUserResource {
+public class CreateBookResource {
     @NotNull
     @NotBlank
     @Size(max = 40)
-    private String firstName;
+    private String name;
 }

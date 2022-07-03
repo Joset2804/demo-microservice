@@ -9,4 +9,9 @@ public class MappingConfiguration {
     public UserMapper userMapper() {
         return new UserMapper();
     }
+
+    @Bean
+    public BookMapper bookMapper() {
+        return new BookMapper();
+    }
 }
